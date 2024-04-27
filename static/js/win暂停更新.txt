@@ -1,0 +1,19 @@
+暂停更新三年：
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings" /v FlightSettingsMaxPauseDays /t reg_dword /d 1095 /f
+
+
+恢复系统更新：
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings" /v FlightSettingsMaxPauseDays /t reg_dword /d 1 /f
+
+
+win10使用方法:
+1、首先我们【Windows键+R】打开【运行】，输入【cmd】点击【确定】。
+2、复制完整第一行命令。
+3、回到刚才打开的cmd【粘贴】刚才复制的命令，并回车。
+4、打开设置，windows更新，高级选项，暂停更新，选择日期拉到最底下最后一个
+
+win11使用方法:
+1、首先我们【Windows键+R】打开【运行】，输入【cmd】点击【确定】。
+2、复制完整第一行命令。
+3、回到刚才打开的cmd【粘贴】刚才复制的命令，并回车。
+4、打开设置windows更新，暂停更新最右侧倒三角 拉到最后面 选择暂停156周

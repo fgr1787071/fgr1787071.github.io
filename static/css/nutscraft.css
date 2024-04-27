@@ -1,0 +1,30 @@
+        body {
+            background-color: rgb(255, 255, 255)
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            /* 网站边框颜色和宽度 */
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        #ac {
+            /* 网站超链接的颜色 */
+            color: blue;
+            text-decoration: none;
+        }
+
+        /* 网站超链接的横线 */
+        #ac:hover {
+            text-decoration: underline;
+        }
