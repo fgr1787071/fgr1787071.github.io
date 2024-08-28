@@ -1,10 +1,13 @@
 // ==UserScript==
-// @name         自动跳过YouTube广告
-// @namespace    youtube
-// @version      1.0
-// @description  在YouTube网页上自动跳过广告
-// @author       Joey Gambler
-// @match        *://www.youtube.com/*
+// @name         115pan_aria2
+// @namespace    115pan_aria2
+// @version      1.1.7
+// @author       f
+// @description  115文件导出到 Aria2
+// @icon         https://115.com/web_icon.jpg
+// @match        *://115.com/?ct=file*
+// @connect      115.com
+// @connect      192.168.50.44
 // @connect      *
 // @grant        GM.xmlHttpRequest
 // @grant        GM.setValue
@@ -16,7 +19,6 @@
 // @grant        GM_setValue
 // @grant        GM_xmlhttpRequest
 // @run-at       document-end
-// @grant        none
 // ==/UserScript==
 
 (function () {
