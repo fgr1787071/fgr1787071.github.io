@@ -6,6 +6,16 @@
 // @author       Joey Gambler
 // @match        *://www.youtube.com/*
 // @connect      *
+// @grant        GM.xmlHttpRequest
+// @grant        GM.setValue
+// @grant        GM.getValue
+// @grant        unsafeWindow
+// @grant        GM_addValueChangeListener
+// @grant        GM_removeValueChangeListener
+// @grant        GM_getValue
+// @grant        GM_setValue
+// @grant        GM_xmlhttpRequest
+// @run-at       document-end
 // @grant        none
 // ==/UserScript==
 
@@ -23,3 +33,8 @@
     // 设置检测时间间隔
     var timer = setInterval(skipAd, 1000); // 1000毫秒 = 1秒
 })();
+
+
+
+
+
