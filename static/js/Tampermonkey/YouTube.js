@@ -5,6 +5,7 @@
 // @description  在YouTube网页上自动跳过广告
 // @author       Joey Gambler
 // @match        *://www.youtube.com/*
+// @connect      *
 // @grant        none
 // ==/UserScript==
 
